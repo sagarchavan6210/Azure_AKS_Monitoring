@@ -194,6 +194,6 @@ if __name__ == "__main__":
 	except:
 		raise('Invalid input \n Please run as \'' +sys.argv[0]  + '\' env','tenantid' ,'clientid','clientsecret')
 		
-	resource_group = "mdsp-"+ account_name_prefix +"-"+ env
+	resource_group = "Your Resource Group Name"
 	print (resource_group)
 	getdata(resource_group, tenant_id, client_id, client_secret, subscription_id)
