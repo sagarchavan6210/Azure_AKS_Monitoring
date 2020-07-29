@@ -9,7 +9,7 @@ import time
 from requests.exceptions import ProxyError
 
 
-url = "https://mdsp-iots-dev-hbase.azurehdinsight.net/"
+url = "https://hbaseurl/"
 username = "msuser1"
 password = ""
 Clusters = []
